@@ -1,7 +1,7 @@
 {
-  "name": "ghost-azure-adapters",
+  "name": "ghost-v3-azure-adapter",
   "version": "1.0.0",
-  "description": "adapter made for all cloud providers",
+  "description": "Ghost v3 cms adapter for azure storage.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,8 @@
   "dependencies": {
     "azure-storage": "^2.10.3",
     "ghost-storage-base": "0.0.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@desyco"
   }
 }
