@@ -1,0 +1,21 @@
+{
+  "name": "ghost-azure-adapters",
+  "version": "1.0.0",
+  "description": "adapter made for all cloud providers",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ghost",
+    "azure",
+    "cloud",
+    "adapter"
+  ],
+  "author": "jochen wilms",
+  "license": "ISC",
+  "dependencies": {
+    "azure-storage": "^2.10.3",
+    "ghost-storage-base": "0.0.4"
+  }
+}
