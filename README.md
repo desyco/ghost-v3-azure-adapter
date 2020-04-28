@@ -1,21 +1,21 @@
-#Ghost-v3-azure-adapter
+# Ghost-v3-azure-adapter
 This npm package is created to store images on azure storage for ghost cms version 3.
 
-##how to use it.
+## How to use it.
 This adapter should be placed under the folder: 
 `{ghost_dir}/content/adapters/storage/ghost-v3-azure-adapter`.
 
 To configure ghost to use this adapter, we need to adapt the  config.{env}.json file. 
 Beneath is a step by step instruction list to install it locally or in a docker container.
 
-###Environment variables.
+### Environment variables.
 This package uses two ENV variables. This package doesn't use the ghost config.json to be more docker/kubernetes compliant.
 ```
 AZURE_STORAGE_CONTAINER={Name of the storage container}
 AZURE_STORAGE_CONNECTION_STRING={Azure connection string for authentication to your contaienr}
 ```
 
-###Local installation
+### Local installation
 Add the following configuration to the config.{env}.json
 ```
   "storage": {
