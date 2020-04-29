@@ -45,7 +45,7 @@ Start ghost
 mv node_modules/ghost-v3-azure-adapter/* .
 ```
 
-###Docker installation
+### Docker installation
 The docker image where this guide is based on, is the ghost docker image created by bitnami.
 There are 2 steps needed in the docker file.
 
